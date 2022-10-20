@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic Page - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li class="active"><a href="generic.html">Work in progress</a></li>
+							<li><a href="elements.html">Accomplishments</a></li>
+						</ul>
+						<ul class="icons">
+							
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									
+									<h2><a href="#">Automatic Transfer Switch<br />
+									Schematic & PCB Design</a></h2>
+									<p>The project aim is to implement a smart automatic power transfer switch from three distinct supplies to the load.<br />
+									The Schematic Design consists of three subcircuits which are interconnected together namely: <br /> A.C voltage sensing circuit
+								 <br />microcontroller subcircuit <br /> Relay-Relay logic output circuit 
+									</p>
+								</header>
+								<a href="#" class="image main"><img src="images/schematic.PNG" alt="" /></a>
+								<ul class="actions special">
+								
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										
+										<h2><a href="#">A.C Voltage sensing circuit<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/vsc.PNG" alt="" /></a>
+									<p>A.C voltage sensing design was achieved using difference amplifier method due to its cost effectiveness and voltage level (220 volts). This subcircuit was implemented to ideally deliver a 5v analog signal to the microcontroller for further signal conversion, processing and control.</p>
+									<ul class="actions special">
+										
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+										<h2><a href="#">microcontroller subcircuit<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/mc.PNG" alt="" /></a>
+									<p>PIC 16F886 microcontroller was used to  implemenet the control algorithm for the system. This microcontroller features a built-in 10-bit ADC with eight input channels and supply voltage range of 2v - 5.5v</p>
+									<ul class="actions special">
+							
+									</ul>
+								</article>
+								<article>
+									<header>
+
+										<h2><a href="#">Relay-Relay logic output circuit<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/rr.PNG" alt="" /></a>
+									<p>This subsystem implements a smart relay logic that prevents jamming of the AC sources by ensuring that at default state or non energized state of the three relays, only one supply (GEN) is connected to the normally open terminal of the output relay (R46)   </p>
+									<ul class="actions special">
+									
+									</ul>
+								</article>
+								<article>
+									<header>
+										
+									 <h2><a href="#">Pen sketch of the Relay- Relay logic <br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/sk.jpg" alt="" /></a>
+									<p>From the above pen sketch, notice that the Generator AC supply connects through the normally closed terminal of the third relay to the normally open terminal of the first/output relay. However, the inverter and nepa supply has no link to the output relay, thereby allowing only the GEN supply connection at default/non energized state of the relays. This connection will prevent jamming and will also help in isolating distinct AC supply problems</p>
+									<ul class="actions special">
+										
+									</ul>
+								</article>
+								<article>
+									<header>
+									
+										<h2><a href="#">Externally connected 12 Volts Switched Mode Power Supply module <br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/smps.PNG" alt="" /></a>
+									<p>SMPS is implemented to supply a continuous fixed voltage output (12v) to the subciruits including the difference amplifier and the relay terminals.</p>
+									<ul class="actions special">
+										
+									</ul>
+								</article>
+
+								<article>
+									<header>
+									
+										<h2><a href="#">PCB Design<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pcb.PNG" alt="" /></a>
+									<p>Components were arranged and connected to fit in an aesthetic manner while using a larger trace style (T200) for source connections to the relays. </p>
+									<ul class="actions special">
+										
+									</ul>
+								</article>
+                               
+
+								<article>
+									<header>
+									
+										<h2><a href="#">3D View<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/3D.PNG" alt="" /></a>
+									<p>3D view automatically generated </p>
+									<ul class="actions special">
+										
+									</ul>
+								</article>
+                               
+
+							</section>
+
+						<!-- Footer -->
+							
+
+					</div>
+
+
+
+
+				
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>
+								Hatfield, Hertfordshire, United Kingdom.</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">1234567</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">soko081991@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+								
+								
+									<li><a href="https://www.linkedin.com/in/ogbuka-somtochukwu-472291148" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+									<li><a href="https://github.com/soko0819" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
